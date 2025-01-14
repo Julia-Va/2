@@ -1,5 +1,3 @@
-import doctest
-
 class Car:
 
     def __init__(self, mark: str, speed: float):
@@ -31,5 +29,3 @@ class Car:
         >>> car.will_stop()
         """
         ...
-if __name__ == "__main__":
-    doctest.testmod()
