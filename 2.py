@@ -1,5 +1,3 @@
-import doctest
-
 class Messenger:
 
     def __init__(self, name: str, users: int):
@@ -37,5 +35,3 @@ class Messenger:
         >>> messenger.post_update("Hello, my name is Julia")
         """
         ...
-if __name__ == "__main__":
-    doctest.testmod()
