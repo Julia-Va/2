@@ -1,5 +1,3 @@
-import doctest
-
 class Furniture:
 
     def __init__(self, material: str, weight: float):
@@ -45,5 +43,3 @@ class Furniture:
         >>> chair.move("living room")
         True
         """
-if __name__ == "__main__":
-    doctest.testmod()
