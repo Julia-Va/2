@@ -38,7 +38,6 @@ class Vehicle:
         """Возвращает валидную строку для создания идентичного экземпляра транспортного средства."""
         return f'Vehicle(make={repr(self.make)}, model={repr(self.model)}, year={self.year})'
 
-
 class Car(Vehicle):
     def __init__(self, make: str, model: str, year: int, doors: int):
         """
